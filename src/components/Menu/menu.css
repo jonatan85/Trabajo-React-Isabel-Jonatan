@@ -1,0 +1,17 @@
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgb(241, 241, 241);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: normal;
+    font-size: 33px;
+    color: #686666;
+}
+
+.menu div:hover {
+    cursor: pointer;
+}

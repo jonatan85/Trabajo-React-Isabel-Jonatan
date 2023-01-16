@@ -1,0 +1,46 @@
+.list{
+    list-style: none;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: larger;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    width: 100px;
+    margin: auto;
+}
+.buttonClick{
+    padding: 20px;
+    background-color: #1600ff;
+    border: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    width: 200px;
+   
+   
+}
+.buttonClickPrevious{
+    padding: 20px;
+    background-color: #1600ff;
+    border: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    width: 200px; 
+    margin-right: 2px;  
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.containerButton{
+    margin: auto;       
+};
