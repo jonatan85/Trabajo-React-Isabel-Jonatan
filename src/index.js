@@ -16,6 +16,8 @@ import Menu from './components/Menu/Menu';
 import Footer from './components/Footer/footer';
 import Listado from './Views/Listado/Listado';
 import Contacto from './Views/Contacto/Contacto';
+import SignUp from './Views/SignUp/SignUp'
+import { LoginContextProvider } from './state/context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <div className='container'>
+      <LoginContextProvider>
       <BrowserRouter>
         <Menu />
         <Routes>
@@ -35,6 +38,11 @@ root.render(
           <Route
             path="login"
             element={<Login />
+          }
+          />
+          <Route
+            path="signup"
+            element={<SignUp />
           }
           />
         </Route>
@@ -53,6 +61,7 @@ root.render(
       </Routes>
       <Footer />
       </BrowserRouter>
+      </LoginContextProvider>
     </div>
 );
 
