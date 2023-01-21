@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+
+.emailBox {
+padding: 20px;
+background-color: #eee;
+border: 0;
+margin-bottom: 30px;
+margin-right: 1px;
+}
+.passwordBox   {
+  padding: 20px;
+  background-color: #eee;
+  border: 0;
+  margin-bottom: 30px;
+  margin-right: 3px;
+  }
+  .buttonBox{
+    padding: 20px;
+    background-color: #1600ff;
+    border: 0;
+    margin-bottom: 30px;
+    color: white;
+    
+  }
+  .formBox{
+    text-align: center;
+  };
+

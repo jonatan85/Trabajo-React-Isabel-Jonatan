@@ -1,0 +1,21 @@
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #000000;
+    padding: 20px 10px;
+    font-weight: normal;
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.menu div:hover {
+    cursor: pointer;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+}
