@@ -1,15 +1,43 @@
-
 .signup {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
 }
 
 .formBox {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    flex-basis: 80%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.user {
+    
+    padding: 20px;
+    background-color: #eee;
+    border: 0;
+       
+  }
+.emailBox {
+  padding: 20px;
+  background-color: #eee;
+  border: 0;
+}
+.passwordBox {
+  padding: 20px;
+  background-color: #eee;
+  border: 0;
+  margin-bottom: 30px;
+  margin-right: 3px;
+}
+.buttonBox {
+  padding: 20px;
+  background-color: #1600ff;
+  border: 0;
+  margin-bottom: 120px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }

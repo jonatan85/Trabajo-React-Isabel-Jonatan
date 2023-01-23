@@ -39,17 +39,21 @@ function Menu() {
     return (
       <>
       <div className='menu'>
-        <div onClick={() => goesToHome()}>
-          <img className="logo" src="logo.jpeg" alt='logo'/></div>
-        <div>
-       <span onClick={() => goesToSignUp()}>Darse de Alta</span>
-       <span>|</span>
-       { state.token && <span onClick={() => logOut() } >Finalizar Sesión</span>}
-       { !state.token && <span onClick={() => goesToLogin() } >Iniciar Sesión</span>}
-       <span>|</span>
+        <div  onClick={() => goesToHome()}>
+        <ul className="menu-left">
+        <li className="fa-solid fa-bars"></li>
+        <li><img className="logo" src="logo_store.png" alt='logo'/></li>
+        </ul>
+        </div>
+          
+        <div className="menu-right">
+       { !state.token && <span  onClick={() => goesToSignUp()}>Darse de Alta</span>}
+       { state.token && <span  onClick={() => logOut() } >Finalizar Sesión</span>}
+       { !state.token && <span  className="span1" onClick={() => goesToLogin() } >Iniciar Sesión</span>}
+       
 
-       <span onClick={()=> goesToListado()}> <i className="fa-solid fa-heart"></i></span>
-       <span onClick={() => goesToContacto()}> Cart</span>
+       <span className="span1" onClick={()=> goesToListado()}> <i className="fa-solid fa-heart"></i></span>
+       <span onClick={() => goesToContacto()}> <i className="fa-regular fa-cart-shopping"></i></span>
        </div>
       </div>
       </>

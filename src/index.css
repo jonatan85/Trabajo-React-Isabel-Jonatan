@@ -17,33 +17,9 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  /*height: 100vh;*/
 
 }
 
-.emailBox {
-padding: 20px;
-background-color: #eee;
-border: 0;
-margin-bottom: 30px;
-margin-right: 1px;
-}
-.passwordBox   {
-  padding: 20px;
-  background-color: #eee;
-  border: 0;
-  margin-bottom: 30px;
-  margin-right: 3px;
-  }
-  .buttonBox{
-    padding: 20px;
-    background-color: #1600ff;
-    border: 0;
-    margin-bottom: 30px;
-    color: white;
-    
-  }
-  .formBox{
-    text-align: center;
-  };
+
 

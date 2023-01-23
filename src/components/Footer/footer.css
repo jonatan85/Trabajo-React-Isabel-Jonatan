@@ -1,14 +1,15 @@
 .footer {
-    background: rgb(241, 241, 241);
-    color: #686666;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background: black;
+    color: #ffffff;
     font-size: larger;
     text-align: center;
-    line-height: 1.6;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    line-height: 1.6;    
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
     cursor: pointer;
-    margin-top: 20px;
+    
 }
