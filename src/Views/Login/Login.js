@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react"
 import axios from "axios";
 import MyTitle from "../../components/MyTitle/MyTittle"
 import { LoginContext } from "../../state/context";
+import './login.css'
 
 function Login () {
 
@@ -49,11 +50,12 @@ function Login () {
 
     return (
         <div className="login">
-            <MyTitle name="Soy el login" /> 
+            
         <form className="formBox" onSubmit={sendLogin}>
+        <MyTitle name="Accede a tu cuenta" /> 
            <input className="emailBox" type="text" placeholder="email" value={email} onChange={changeEmailValue} ></input>
            <input className="passwordBox" type="text" placeholder="password" value={password} onChange={changePasswordValue}></input>
-           <button className="buttonBox">Enviar</button>
+           <button className="buttonBox">Iniciar sesión</button>
         </form>
         </div>
     )

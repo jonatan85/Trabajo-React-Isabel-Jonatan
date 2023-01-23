@@ -1,13 +1,16 @@
 
 .title {
-    color: blue;
-    text-align: center;
+    color: rgb(152, 152, 154);
+    margin: auto;
+
    
     
 
 
 }
 .containerTittle{
-   padding-top: 30px;
+   padding-top: 120px;
+   padding-bottom: 20px;
+ 
 
 }

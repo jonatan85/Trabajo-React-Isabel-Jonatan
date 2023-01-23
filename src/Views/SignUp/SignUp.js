@@ -55,11 +55,11 @@ function Login () {
     return (
         <div className="signup">
         <form className="formBox" onSubmit={signUp}>
-            <MyTitle name="Soy el SignUp" /> 
-            <input className="user" type="text" placeholder="username" value={username} onChange={changeUsername}></input>
+            <MyTitle name="Datos personales" /> 
+            <input className="user" type="text" placeholder="nombre" value={username} onChange={changeUsername}></input>
             <input className="emailBox" type="text" placeholder="email" value={email} onChange={changeEmailValue} ></input>
             <input className="passwordBox" type="text" placeholder="password" value={password} onChange={changePasswordValue}></input>
-            <button className="buttonBox">Dar de alta</button>
+            <button className="buttonBox">Crear cuenta</button>
         </form>
         </div>
     )
