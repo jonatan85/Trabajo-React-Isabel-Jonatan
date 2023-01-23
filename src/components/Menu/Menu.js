@@ -47,8 +47,7 @@ function Menu() {
         </div>
           
         <div className="menu-right">
-       <span  onClick={() => goesToSignUp()}>Darse de Alta</span>
-       
+       { !state.token && <span  onClick={() => goesToSignUp()}>Darse de Alta</span>}
        { state.token && <span  onClick={() => logOut() } >Finalizar Sesión</span>}
        { !state.token && <span  className="span1" onClick={() => goesToLogin() } >Iniciar Sesión</span>}
        
