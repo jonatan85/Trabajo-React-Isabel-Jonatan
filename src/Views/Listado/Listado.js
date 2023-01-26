@@ -36,8 +36,7 @@ function Listado (){
     return (
         <div>
         <MyTitle name="Soy el listado" />
-        <List ListCharacter ={ListCharacter} handleClick={handleClick} handleClickPrevious={handleClickPrevious}/>
-        
+        <List ListCharacter={ListCharacter} handleClick={handleClick} handleClickPrevious={handleClickPrevious}/>
         </div>
     )
 }

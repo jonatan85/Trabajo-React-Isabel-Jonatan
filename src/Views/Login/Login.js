@@ -22,21 +22,19 @@ function Login () {
         // username:'johnd',
         // password:'m38rmF$',
 
-        dispatch({ token: 'eyJhbGciOiJIUzI1NiIsInR' })
-
-        // fetch('https://fakestoreapi.com/auth/login', {
-        //     method: 'POST',
-        //     body: JSON.stringify({
-        //         username: email,
-        //         password: password,
-        //     })
-        // })
-        //     .then((res) => {
-        //         return res.json()
-        //     })
-        //     .then((res) => {
-        //         dispatch({ token: res.token })
-        //     })
+        fetch('https://fakestoreapi.com/auth/login', {
+            method: 'POST',
+            body: JSON.stringify({
+                username: email,
+                password: password,
+            })
+        })
+            .then((res) => {
+                return res.json()
+            })
+            .then((res) => {
+                dispatch({ token: res.token })
+            })
     }
 
 

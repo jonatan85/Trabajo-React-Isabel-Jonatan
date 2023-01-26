@@ -1,13 +1,18 @@
-
+.home-container{
+    display: grid;
+}
 .home{
     background-color: black;
     height: 600px;
+    background-image: url(https://static.zara.net/photos///contents/mkt/spots/ss23-north-woman-basics/subhome-xmedia-03//w/3240/IMAGE-landscape-default-fill-d35dc2b6-b430-46cf-b2e6-58683b893340-default_0.jpg?ts=1674071623729);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .banner {
     width: 100%;
+    
    
 }
 h1{

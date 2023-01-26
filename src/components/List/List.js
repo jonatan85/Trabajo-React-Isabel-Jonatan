@@ -1,10 +1,8 @@
 import './List.css';
+import React, { useEffect, useState} from 'react';
 
 const List = ({ListCharacter, handleClick}) =>{
         
-        
-
-
 
 return <div className='listContainer'>
     <ul className='list'>
