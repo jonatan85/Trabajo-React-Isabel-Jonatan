@@ -1,6 +1,8 @@
-import axios from "axios";
+import axios from 'axios';
 
-const getDataApi = (url) => {
-   return axios.get(url)
-    };
-export default getDataApi
+const getDataApi = () => {
+    return axios.get(`https://fakestoreapi.com/products/`);
+};
+
+
+export default getDataApi;
